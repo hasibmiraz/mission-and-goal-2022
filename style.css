@@ -10,6 +10,10 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 45px;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -48,9 +52,10 @@ p {
 .link-btn {
   text-decoration: none;
   color: white;
+  font-size: 20px;
   font-weight: 500;
   background-image: linear-gradient(to right, #f59560, #f0a834);
-  padding: 15px 45px;
+  padding: 18px 45px;
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -108,4 +113,27 @@ p {
 
 .card-three {
   background-color: rgba(255, 228, 181, 0.5);
+}
+
+.section-three {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.coding-image {
+  margin-right: 1rem;
+  margin-left: 3rem;
+}
+
+.coding-image img {
+  width: 90%;
+  display: inline;
+}
+
+.develop-section p {
+  text-align: justify;
+  font-size: 24px;
+  padding-right: 5rem;
 }
