@@ -10,6 +10,10 @@ h1 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   font-size: 18px;
   color: gray;
@@ -35,7 +39,7 @@ p {
   padding-left: 20px;
 }
 
-.color-text {
+#color-text {
   background-image: linear-gradient(to right, #f59560, #f0a834);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,4 +63,49 @@ p {
 
 .person-image img {
   width: 90%;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-cards {
+  display: flex;
+}
+
+.mission-cards img {
+  width: 10rem;
+}
+
+.card-one,
+.card-two,
+.card-three {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  border-radius: 13px;
+  flex: 1;
+}
+
+.card-one p,
+.card-two p,
+.card-three p {
+  text-align: justify;
+}
+
+.card-one {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.card-two {
+  background-color: rgba(233, 197, 233, 0.5);
+}
+
+.card-three {
+  background-color: rgba(255, 228, 181, 0.5);
 }
