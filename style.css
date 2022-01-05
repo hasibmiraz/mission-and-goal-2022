@@ -43,7 +43,7 @@ p {
   padding-left: 20px;
 }
 
-#color-text {
+.color-text {
   background-image: linear-gradient(to right, #f59560, #f0a834);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -148,10 +148,41 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .project-image img {
   width: 80%;
   margin-left: 4rem;
+}
+
+.section-five {
+  margin: 3rem auto;
+  width: 90%;
+}
+
+.contact-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-footer {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 18px 0;
+  margin: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
