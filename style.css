@@ -97,6 +97,12 @@ p {
   flex: 1;
 }
 
+.card-one:hover,
+.card-two:hover,
+.card-three:hover {
+  transform: scale(1.01);
+}
+
 .card-one p,
 .card-two p,
 .card-three p {
@@ -136,4 +142,16 @@ p {
   text-align: justify;
   font-size: 24px;
   padding-right: 5rem;
+}
+
+.section-four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.project-image img {
+  width: 80%;
+  margin-left: 4rem;
 }
